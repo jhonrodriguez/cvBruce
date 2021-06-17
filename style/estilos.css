@@ -1,13 +1,19 @@
+header{
+    background-color: #e5e5e5;
+    
+
+}
 .batman{
-    background-color: #e6e6e6;
-    position:relative;
-   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 h1{ 
     width: 100%;
     height: 30px;
     left: 213px;
     top: 203px;
+    letter-spacing: 5px;
     word-spacing: 15px;
     font-family: "Times New Roman";
     font-style: normal;
@@ -16,7 +22,7 @@ h1{
     text-transform: uppercase;
     line-height: 84.69%;
     color: #005677;
-    background-color: #a1a1a1;
+    background-color: #c4c4c4;
     text-align: center}
 
 h2{
@@ -33,4 +39,25 @@ line-height: 84.69%;
 text-transform: uppercase;
 
 }
+.wbullet{
+    list-style-type: none;
+}
+.wbullet li span{
+    font-weight: bold;
+}
+.bullet li span{
+    font-style: italic;
+    font-weight: bold;
+}
 
+footer{
+
+    font-family: "Times New Roman";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 84.69%;
+    background-color: #005677;
+    color: white;
+    text-align: center;
+}
