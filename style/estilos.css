@@ -61,3 +61,6 @@ footer{
     color: white;
     text-align: center;
 }
+.ubi, .tel, .mail{
+    font-size: 30px;
+}
